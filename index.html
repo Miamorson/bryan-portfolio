@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Bryan
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+
+        <!-- PROFILE IMAGE -->
+        <div class="home-image">
+            <img src="images/bryan-profile.jpg" alt="Bryan">
+        </div>
+
+        <!-- INTRO TEXT -->
+        <div class="home-text">
+            <p>IT Student in GRC</p>
+            <h1>Hi, I'm <span>Bryan</span></h1>
+            <h2>Web & Graphic Designer</h2>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+
+</section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+
+        <div class="about-image">
+            <img src="images/about-image.png" alt="">
+        </div>
+
+        <div class="about-content">
+
+            <h1>ABOUT ME</h1>
+
+            <p>
+                I am a highly adaptable and disciplined individual 
+                who believes that consistency is more important
+                than motivation. I can work effectively in any environment
+                and quickly adjust to new challenges, responsibilities,
+                and situations. I value hard work, professionalism, 
+                and continuous learning, which helps me stay focused
+                on achieving goals even under pressure. I am also a 
+                responsible and cooperative person who works well both 
+                independently and as part of a team. With a positive mindset,
+                strong determination, and willingness to improve, I always
+                strive to give my best in every task and opportunity 
+                entrusted to me.
+
+            </p>
+
+            <div class="skills">
+
+                <h3>Education</h3>
+
+                <p>
+                    2026 - Bachelor of Science in Information Technology
+                </p>
+                <p>
+                    2024 - Information Technology in Mobile Application and Website Development
+                </p>
+
+                <h3>Soft Skills</h3>
+
+                <p>
+                    Communication, Adaptability, Creativity, Teamwork, Time Management,  Problem Solving
+                </p>
+
+                <h3>Hard Skills</h3>
+                <p>
+                    - HTML
+                </p>
+                <p>
+                    - CSS   
+                </p>
+                <p>
+                    - JavaScript
+                </p>
+                <p>
+                    - Graphic Design    
+                </p>
+                <p>
+                    - UI/UX Design
+                </p>
+                 
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+
+        <h1>MY WORK</h1>
+
+        <div class="portfolio-container">
+
+            <!-- GRAPHIC DESIGN -->
+            <a href="graphic-design.html" class="portfolio-card">
+
+                <img src="images/graphic-designs/tumbnaildesign.png" alt="">
+
+                <div class="overlay">
+                    <h2>Graphic Designs</h2>
+                    <p>View my graphic design works</p>
+                </div>
+
+            </a>
+
+            <!-- WEB DESIGN -->
+            <a href="web-design.html" class="portfolio-card">
+
+                <img src="images/web-designs/tumbnailweb.png" alt="">
+
+                <div class="overlay">
+                    <h2>Web Design</h2>
+                    <p>View my web design projects</p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+        <div class="contact-left">
+
+            <h1>CONTACT ME</h1>
+
+            <p>Email: bryanjamesbenedicto@gmail.com</p>
+
+            <p>Phone: 09471401449</p>
+
+        </div>
+
+        <div class="contact-right">
+
+            <form id="contact-form">
+
+                <input type="text" placeholder="Your Name">
+
+                <input type="email" placeholder="Your Email">
+
+                <textarea placeholder="Your Message"></textarea>
+
+                <button type="submit" id="submit-btn">
+                    Submit
+                </button>
+
+                <p id="popup-message">
+                    Message Sent Successfully!
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
